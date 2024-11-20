@@ -1,4 +1,4 @@
 # GoCourse
-Management of a Training Platform
+Gestion d'une Plateforme de Formation
 
-The application will allow users to register for training courses offered on the platform. There will be different types of users: instructors and students. Each course will have a title, a description, an instructor, and a price. Students can enroll in courses and view the courses they are enrolled in.
+L'application permettra aux utilisateurs de  s'inscrire  à des  formations proposées  sur la plateforme.  Il  y  aura  des  utilisateurs  de  types différents  :  formateurs  et  étudiants.  Chaque formation  a un  titre, une  description, un  formateur,  et un  prix. Les étudiants  peuvent s'inscrire à des formations  et consulter les formations  auxquelles ils sont inscrits.
