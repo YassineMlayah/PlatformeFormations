@@ -1,16 +1,17 @@
 public class Utilisateur{
          //ATTRIBUTS
-    private String nom;
-    private String email;
-    private String motDePasse;
+    public String nom;
+    public String email;
+    public String motDePasse;
 
         //METHODES
     //CONSTRUCTOR
-    Utilisateur(String nom, String email, String motDePasse){
+    public Utilisateur(String nom, String email, String motDePasse){
         this.nom = nom;
         this.email = email;
         this.motDePasse = motDePasse;
     }
+
 
     //GETTERS
     String getnom(){
