@@ -513,6 +513,7 @@ public class Platforme {
                             stmt.setInt(4, formateurId);
                             stmt.executeUpdate();
                             JOptionPane.showMessageDialog(panel, "Formation ajoutée avec succès!");
+                            mainPanel.add(createFormateurProfilPanel(mainPanel, cardLayout, formateurId), "Profil");
                             cardLayout.show(mainPanel, "Profil");
                         }
                     } catch (SQLException ex) {
